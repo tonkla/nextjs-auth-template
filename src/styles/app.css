@@ -1,0 +1,32 @@
+@import './tailwind.css';
+
+html {
+	font-size: 16px;
+}
+
+body {
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.material-icons {
+	font-family: 'Material Icons';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 20px;
+	display: inline-block;
+	line-height: 1;
+	text-transform: none;
+	letter-spacing: normal;
+	word-wrap: normal;
+	white-space: nowrap;
+	direction: ltr;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+}
+.material-icons.md-18 {
+	font-size: 18px;
+}
+.material-icons.md-24 {
+	font-size: 24px;
+}
